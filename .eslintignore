@@ -1,0 +1,7 @@
+yarn.lock
+**/package.json
+**/uni_modules/**
+**/tmui/**
+README.md
+**/static/
+**/tsconfig.json
