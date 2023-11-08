@@ -18,7 +18,7 @@
       <tm-icon rotate :font-size="50" name="tmicon-hongbao"></tm-icon>
       <view class="mt-[13.14758px]"></view>
       <view class="text-gray-900/50 mb-2 before:content-['当前系统主题:']">
-        {{ themeRef }}
+        {{ themeRef }}😊
       </view>
       <view class="space-y-[20rpx] flex flex-col items-center">
         <view
