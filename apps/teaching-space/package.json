@@ -1,6 +1,7 @@
 {
   "name": "teaching-space",
   "version": "0.0.1",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "uni -p mp-weixin",

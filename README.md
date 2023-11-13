@@ -9,7 +9,7 @@
 ```bash
 npx degit sukbearai/dcy-uni my-turborepo-uni
 cd my-turborepo-uni
-yarn # If you don't have yarn installed, run: npm install -g yarn
+yarn install # If you don't have yarn installed, run: npm install -g yarn
 yarn dev
 cd apps/learning-space
 yarn run open:dev

@@ -1,6 +1,8 @@
 <template>
   <tm-app>
     <view class="content">
+      <a-hello-world></a-hello-world>
+      <a-carousel></a-carousel>
       <WeappTailwindcss></WeappTailwindcss>
       <tm-qrcode ref="qrcode" :option="cfig"></tm-qrcode>
       <tm-icon
@@ -96,6 +98,8 @@ import WeappTailwindcss from '@/components/WeappTailwindcss.vue'
 import GoodList from '@/components/GoodList.vue'
 import { useCounterStore } from '@/stores/counter'
 import { appName } from '@dcyjs/config'
+import aCarousel from '@dcyjs/materials/components/a-carousel/a-carousel.vue'
+import aHelloWorld from '@dcyjs/materials/components/a-hello-world/a-hello-world.vue'
 import useMescroll from '@/uni_modules/mescroll-uni/hooks/useMescroll.js'
 import { apiGoods } from '@/api/mock'
 import tmApp from '@/tmui/components/tm-app/tm-app.vue'
