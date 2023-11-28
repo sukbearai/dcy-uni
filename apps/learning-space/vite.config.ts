@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite'
 import uni from '@dcloudio/vite-plugin-uni'
+import Components from '@uni-helper/vite-plugin-uni-components'
+import Layouts from '@uni-helper/vite-plugin-uni-layouts'
 import AutoImport from 'unplugin-auto-import/vite'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 // import Components from 'unplugin-vue-components/vite'
@@ -12,6 +14,7 @@ import { plugins as postcssPlugins } from './postcss.config.cjs'
 export default defineConfig({
   // uvtw 一定要放在 uni 后面
   plugins: [
+    Layouts(),
     uni(),
     vueJsx(),
     uvtw({
@@ -23,11 +26,11 @@ export default defineConfig({
       eslintrc: {
         enabled: true
       }
+    }),
+    Components({
+      dts: 'src/components.d.ts',
+      directoryAsNamespace: true
     })
-    // uni-app vite 中不起作用，不知道为啥
-    // Components({
-    //   dts: './src/components.d.ts'
-    // })
   ],
   // 内联 postcss 注册 tailwindcss
   css: {

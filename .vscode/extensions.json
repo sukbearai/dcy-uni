@@ -9,6 +9,7 @@
     "EditorConfig.EditorConfig",
     "bradlc.vscode-tailwindcss",
     "antfu.vite",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "uni-helper.uni-helper-vscode"
   ]
 }

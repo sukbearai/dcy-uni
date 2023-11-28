@@ -29,6 +29,8 @@
     "@commitlint/config-conventional": "^18.1.0",
     "@types/lodash-es": "^4.17.10",
     "@types/node": "^20.8.7",
+    "@uni-helper/vite-plugin-uni-components": "^0.0.8",
+    "@uni-helper/vite-plugin-uni-layouts": "^0.1.6",
     "@vitest/coverage-v8": "^0.34.6",
     "bumpp": "^9.2.0",
     "commitizen": "^4.3.0",

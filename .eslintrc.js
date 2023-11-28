@@ -37,6 +37,7 @@ module.exports = {
     {
       files: ['**/package.json'],
       rules: {
+        'no-unused-expressions': 'off',
         'no-undef': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         'no-empty': 'off'
