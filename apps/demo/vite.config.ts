@@ -12,6 +12,9 @@ import { WeappTailwindcssDisabled } from './platform'
 import postcssPlugins from './postcss.config.cjs'
 // https://vitejs.dev/config/
 export default defineConfig({
+  build: {
+    target: 'es6'
+  },
   // uvtw 一定要放在 uni 后面
   plugins: [
     Layouts(),
